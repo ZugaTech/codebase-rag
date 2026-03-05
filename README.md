@@ -6,30 +6,30 @@ An intelligent, semantic search engine for your local codebases. Ask questions i
 
 ```text
 Browser (React) 
-   │
-   ▼
+ │
+ ▼
 FastAPI Backend ────► OpenAI API (Embeddings & Completion)
-   │
-   ▼
+ │
+ ▼
 ChromaDB (Vector Store)
 ```
 
 ## Quickstart
 
 1. **Clone and Setup Environment**
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your OPENAI_API_KEY
-   ```
+ ```bash
+ cp.env.example.env
+ # Edit.env and add your OPENAI_API_KEY
+ ```
 
 2. **Run with Docker**
-   ```bash
-   docker-compose up --build
-   ```
+ ```bash
+ docker-compose up --build
+ ```
 
 3. **Access the App**
-   - Frontend: [http://localhost:3000](http://localhost:3000)
-   - API Docs: [http://localhost:8001/docs](http://localhost:8001/docs)
+ - Frontend: [http://localhost:3000](http://localhost:3000)
+ - API Docs: [http://localhost:8001/docs](http://localhost:8001/docs)
 
 ## How It Works
 
@@ -58,7 +58,7 @@ ChromaDB (Vector Store)
 - **Local Paths**: Currently only supports local directory paths accessible to the Docker container (use volumes for external paths).
 - **Authentication**: No built-in auth for the UI or API.
 - **Future Improvements**:
-  - VS Code Extension integration.
-  - Support for indexing remote GitHub repositories.
-  - Cross-encoder re-ranking for higher precision.
-  - Support for more file types (PDF, Office) for documentation.
+ - VS Code Extension integration.
+ - Support for indexing remote GitHub repositories.
+ - Cross-encoder re-ranking for higher precision.
+ - Support for more file types (PDF, Office) for documentation.
