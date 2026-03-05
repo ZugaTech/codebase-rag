@@ -1,4 +1,4 @@
-# codebase-rag
+﻿# codebase-rag
 
 An intelligent, semantic search engine for your local codebases. Ask questions in natural language and get answers with exact file citations.
 
@@ -41,7 +41,7 @@ ChromaDB (Vector Store)
 - **Storage**: Upserts into a dedicated ChromaDB collection.
 
 ### 2. RAG Pipeline
-- **Retrieval**: Embeds query, performs vector search in ChromaDB, and calculates relevance scores.
+- **Retrieval**: Embeds query, performs vector search in ChromaDB and calculates relevance scores.
 - **Generation**: Passes top-k chunks to GPT-4o with a strict system prompt to avoid hallucinations and ensure citations.
 - **Streaming**: Responses are streamed via Server-Sent Events (SSE) for a low-latency UI experience.
 
