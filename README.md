@@ -1,4 +1,4 @@
-# # codebase-rag
+# codebase-rag
 
 An intelligent, semantic search engine for your local codebases. Ask questions in natural language and get answers with exact file citations.
 
